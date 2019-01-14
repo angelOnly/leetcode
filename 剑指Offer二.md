@@ -1181,7 +1181,7 @@ TreeNode KthNode(TreeNode pRoot, int k)
         } 
 ````
 
-### 头条面经算法
+### 面经算法
 
 [股票买卖5个变种](https://segmentfault.com/a/1190000006672807)
 
@@ -1218,7 +1218,7 @@ public int maxProfit(int[] prices) {
     }
 ````
 
-###二分查找
+### 二分查找
 
 ````java
 public static int binSearch(int srcArray[], int key) {  

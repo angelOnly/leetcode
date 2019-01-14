@@ -82,7 +82,7 @@ public static void main(String[] args) {
 
 ### 4.替换空格
 
-#####题目
+##### 题目
 
 请实现一个函数，把字符串中的空格替换成"%20"，输入”we are happy.“，输出”we%20are%20happy.“
 
@@ -148,7 +148,7 @@ public static void main(String[] args) {
 	}
 ````
 
-###5.单链表
+### 5.单链表
 
 插入：将要插入的节点指向头节点，并将指针往后移动，直到后续节点为null，将新节点插入
 
@@ -905,7 +905,7 @@ public static boolean isPopOrder(int[] pushList,int[] popList) {
 	}
 ````
 
-###24.二叉搜索树的后序遍历序列
+### 24.二叉搜索树的后序遍历序列
 
 ````java
 private static boolean verifySequenceOfBST(List<Integer> sequence, int start, int end) {
