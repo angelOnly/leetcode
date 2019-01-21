@@ -1181,8 +1181,6 @@ TreeNode KthNode(TreeNode pRoot, int k)
         } 
 ````
 
-### 面经算法
-
 [股票买卖5个变种](https://segmentfault.com/a/1190000006672807)
 
 我们有一个股票的数组，数组是每时间的钱，我们只能买入一次和卖出一次，求我们的最大收益。
