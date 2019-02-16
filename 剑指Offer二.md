@@ -110,7 +110,7 @@ public static void Combination(char [] s){
         int len = s.length;
         int n = 1<<len;
         //从1循环到2^len-1
-        for(int i=0;i<n;i++){
+        for(int i=1;i<n;i++){
             StringBuffer sb = new StringBuffer();
 //查看第一层循环里面的任意一种取值当中的哪一位是1[比如ab,011]， 如果是1，对应的字符就存在，打印当前组合。 
             for(int j=0;j<len;j++){
@@ -394,11 +394,10 @@ static int count = 0;
 		while (j <= right) {
 			nums[k++] = arr[j++];
 		}
-		current = 0;
 		//把临时数组拷贝到原数组
-		while (temp <= right) {
-			arr[temp++] = nums[k++];
-		}
+        for (i = 0; i < nums.length; i++) {
+           arr[left + i] = nums[i];
+        }
 	}
 
 	public static void mergeSort(int[] nums, int left, int right) {
@@ -1108,6 +1107,32 @@ public static void levelIterator(TreeNode root) {
 			}
 		}
 	}
+
+public static ArrayList<ArrayList<Integer>> levelOrder(TreeNode root){
+        ArrayList<ArrayList<Integer>> result = new ArrayList<ArrayList<Integer>>();
+        if(root == null){
+            return result;
+        }
+        Queue<TreeNode> queue = new LinkedList<TreeNode>();
+        queue.offer(root);
+        while(!queue.isEmpty()){
+            int size = queue.size();
+            ArrayList<Integer> level = new ArrayList<Integer>();
+            for(int i = 0;i < size ;i++){
+                TreeNode node = queue.poll();
+                level.add(node.data);
+                if(node.leftChild != null){
+                    queue.offer(node.leftChild);
+                }
+                if(node.rightChild != null){
+                    queue.offer(node.rightChild);
+                }
+            } 
+            result.add(level);
+        }
+        System.out.println(result);
+        return result;
+    }
 `````
 
 ### 按之字形打印二叉树
@@ -1142,6 +1167,63 @@ public static void printTreeNode(TreeNode root) {
 				System.out.println();
 			}
 		}
+	}
+
+public ArrayList<ArrayList<Integer>> Print(TreeNode pRoot) {
+		//result用来存储结果
+		ArrayList<ArrayList<Integer>> result = new ArrayList<ArrayList<Integer>>();
+		if (pRoot == null)
+			return result;
+		//line存取每一行数字
+		ArrayList<Integer> line = new ArrayList<Integer>();
+		//建立两个堆栈
+		Stack<TreeNode> stack1 = new Stack<TreeNode>();
+		Stack<TreeNode> stack2 = new Stack<TreeNode>();
+		boolean flag = true;
+		TreeNode node;
+		stack1.push(pRoot);
+ 
+		while (!stack1.isEmpty() || !stack2.isEmpty()) {
+			//如果奇数行，正序打印
+			if (flag) {
+				while (!stack1.isEmpty()) {
+					node = stack1.pop();
+					line.add(node.val);
+					//先存left子节点，再存right子节点
+					if (node.left != null) {
+						stack2.push(node.left);
+					}
+					if (node.right != null) {
+						stack2.push(node.right);
+					}
+					//当堆栈为空，说明该行节点遍历完毕
+					if (stack1.isEmpty()) {
+						result.add(line);
+						line = new ArrayList<Integer>();
+					}
+				}
+				//偶数行，逆序打印
+			} else {
+				while (!stack2.isEmpty()) {
+					node = stack2.pop();
+					line.add(node.val);
+					//先存right子节点，再存left子节点
+					if (node.right != null) {
+						stack1.push(node.right);
+					}
+					if (node.left != null) {
+						stack1.push(node.left);
+					}
+					//当堆栈为空，说明该行节点遍历完毕
+					if (stack2.isEmpty()) {
+						result.add(line);
+						line = new ArrayList<Integer>();
+					}
+				}
+			}
+			flag = !flag;
+		}
+		return result;
 	}
 ````
 
