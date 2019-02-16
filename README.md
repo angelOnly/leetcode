@@ -1,6 +1,6 @@
 ## leetcode + 剑指Offer
 
-剑指Offer：70 题
+剑指Offer：60 题
 
 leetcode：140 题
 
