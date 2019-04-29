@@ -245,7 +245,7 @@ leetcode：140 题
 | 199           | Binary Tree Right Side View                                  | BFS + preorder       |
 |               |                                                              |                      |
 | **BST**       |                                                              |                      |
-| 98            | Validate Binary Search Tree                                  | preorder             |
+| 98            | [Validate Binary Search Tree](https://github.com/angelOnly/leetcode/blob/master/98.%20Validate%20Binary%20Search%20Tree.md)                                  | preorder ✅             |
 | 235           | [Lowest Common Ancestor of a Binary Search Tree](https://github.com/angelOnly/leetcode/blob/master/235.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree.md) | preorder ✅           |
 | 236           | Lowest Common Ancestor of a Binary Tree                      | postorder            |
 | 108           | [Convert Sorted Array to Binary Search Tree](https://github.com/angelOnly/leetcode/blob/master/108.%20Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree.md) | binary search ✅      |
