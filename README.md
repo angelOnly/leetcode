@@ -12,9 +12,9 @@ leetcode：140 题
 
 | 基础         |                                                              |               |
 | ------------ | ------------------------------------------------------------ | ------------- |
-| 27           | Remove Element                                               |               |
+| 27           | [Remove Element](https://github.com/angelOnly/leetcode/blob/master/27.%20Remove%20Element.md) | ✅             |
 | 26           | [Remove Duplicates from Sorted Array](https://github.com/angelOnly/leetcode/blob/master/26.%20Remove%20Duplicates%20from%20Sorted%20Array.md) | ✅             |
-| 80           | Remove Duplicates from Sorted Array II                       |               |
+| 80           | [Remove Duplicates from Sorted Array II](https://github.com/angelOnly/leetcode/blob/master/80.%20Remove%20Duplicates%20from%20Sorted%20Array%20II.md) | ✅             |
 | 277          | Find the Celebrity                                           |               |
 | 189          | [Rotate Array](https://github.com/angelOnly/leetcode/blob/master/189.%20Rotate%20Array.md) | ✅             |
 | 41           | [First Missing Positive](https://github.com/angelOnly/leetcode/blob/master/41.%20First%20Missing%20Positive.md) | ✅             |
