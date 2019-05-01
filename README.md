@@ -136,7 +136,7 @@ leetcode：140 题
 | 159             | Longest Substring with At Most Two Distinct Characters       | Sliding Window   |
 |                 |                                                              |                  |
 | **Palindrome**  |                                                              |                  |
-| 125             | Valid Palindrome                                             |                  |
+| 125             | [Valid Palindrome](https://github.com/angelOnly/leetcode/blob/master/125.%20Valid%20Palindrome.md) | ✅                |
 | 266             | Palindrome Permutation                                       |                  |
 | 5               | Longest Palindromic Substring                                |                  |
 | 9               | Palindrome Number                                            |                  |
@@ -345,8 +345,8 @@ leetcode：140 题
 | 24   | Swap Nodes in Pairs                                          ||
 | 328  | Odd Even Linked List                                         ||
 | 92   | Reverse Linked List II                                       ||
-| 237  | Delete Node in a Linked List                                 ||
-| 19   | Remove Nth Node From End of List                             ||
+| 237  | [Delete Node in a Linked List](https://github.com/angelOnly/leetcode/blob/master/237.%20Delete%20Node%20in%20a%20Linked%20List.md) |✅|
+| 19   | [Remove Nth Node From End of List](https://github.com/angelOnly/leetcode/blob/master/19.%20Remove%20Nth%20Node%20From%20End%20of%20List.md) |✅|
 | 83   | [Remove Duplicates from Sorted List](https://github.com/angelOnly/leetcode/blob/master/83.%20Remove%20Duplicates%20from%20Sorted%20List.md) |✅|
 | 203  | Remove Linked List Elements                                  ||
 | 82   | [Remove Duplicates from Sorted List II](https://github.com/angelOnly/leetcode/blob/master/82.%20Remove%20Duplicates%20from%20Sorted%20List%20II.md) |✅|
