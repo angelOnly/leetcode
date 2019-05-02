@@ -40,8 +40,8 @@ leetcode：140 题
 | 188          | Best Time to Buy and Sell Stock IV                           |               |
 | 309          | Best Time to Buy and Sell Stock with Cooldown                |               |
 | 11           | [Container With Most Water](https://github.com/angelOnly/leetcode/blob/master/11.%20Container%20With%20Most%20Water.md) | ✅             |
-| 42           | Trapping Rain Water                                          |               |
-| 334          | Increasing Triplet Subsequence                               |               |
+| 42           | [Trapping Rain Water](https://github.com/angelOnly/leetcode/blob/master/42.%20Trapping%20Rain%20Water.md) | ✅             |
+| 334          | [Increasing Triplet Subsequence](https://github.com/angelOnly/leetcode/blob/master/334.%20Increasing%20Triplet%20Subsequence.md) | ✅             |
 | 128          | [Longest Consecutive Sequence](https://github.com/angelOnly/leetcode/blob/master/128.%20Longest%20Consecutive%20Sequence.md) | ✅             |
 | 164          | Maximum Gap                                                  | Bucket        |
 | 287          | Find the Duplicate Number                                    |               |
